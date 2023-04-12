@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #333
+}
+
+#carouse1 {
+  position: relative;
+  width: 100%;
+  height: 500px;
+}
+
+#carouse1 img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+button {
+  background-color: #333;
+  font-size: 24px;
+  width: 35px;
+  height: 35px;
+  color:antiquewhite;
+  opacity: 0.5;
+  border: 1px solid black;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 10;
+}
+
+#carousel-prev {
+  top: 50%
+}
+
+#carousel-next {
+  top: 50%;
+  right: 0
+}
